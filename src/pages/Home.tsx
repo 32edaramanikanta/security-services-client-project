@@ -95,7 +95,7 @@ const Home = () => {
               <Badge variant="outline" className="mb-4">About Our Company</Badge>
               <h2 className="text-3xl font-bold mb-6">Your Trusted Security Partner in Tenali</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Mr. Koteswararao Mandapati management postgraduate having huge experience in security safety vigilent and experienced administrator is also experienced  coordinating and training, is established sai prabu security service agencies, he started with a little security services.Now created a squad of expertise security guards that offer the best services to our client according to their requirements.
+                Mr. Koteswararao Mandapati is a management postgraduate and social engineer having huge experience in the field of security, safety, social vigilance and experienced Administrator. He is also experienced in co-coordinating and training, he established sai prabu security service agencies.He started with a little security services, now created a squad of expertise security guards that offer the best services to our client according to their requirements.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
                 Our professional team delivers reliable security and housekeeping services tailored to 

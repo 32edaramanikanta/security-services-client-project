@@ -1,19 +1,16 @@
 import { Card, CardContent } from "@/components/ui/card";
+import indoRestaurantLogo from "@/assets/logos/indorestaurant.jpg";
+import BarcusRestaurant   from "@/assets/logos/barcus.jpg";
+import HondaLogo from "@/assets/logos/honda.jpeg";
+import VillageLogo from "@/assets/logos/villagekitchen.jpeg";
 
 const ClientMarquee = () => {
   const clients = [
-    { name: "TechCorp Solutions", logo: "TC" },
-    { name: "Global Industries", logo: "GI" },
-    { name: "Secure Mall", logo: "SM" },
-    { name: "Elite Residency", logo: "ER" },
-    { name: "Medical Center", logo: "MC" },
-    { name: "Educational Institute", logo: "EI" },
-    { name: "Banking Services", logo: "BS" },
-    { name: "Hotel Paradise", logo: "HP" },
-    { name: "Manufacturing Unit", logo: "MU" },
-    { name: "IT Park", logo: "IP" },
-    { name: "Shopping Complex", logo: "SC" },
-    { name: "Corporate Tower", logo: "CT" }
+    { name: "Barkaas Arabic Restaurant", logo: "BR", logoImage: indoRestaurantLogo },
+    { name: "Barcus restaurant", logo: "" , logoImage: BarcusRestaurant },
+    { name: "Honda ShowRoom Tenali", logo: "" , logoImage: HondaLogo },
+    { name: "Village Kitchen Restaurant", logo: "SSP" ,logoImage: VillageLogo},
+    
   ];
 
   return (
@@ -33,7 +30,16 @@ const ClientMarquee = () => {
             <Card key={index} className="flex-shrink-0 w-48">
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-xl font-bold text-primary">{client.logo}</span>
+                {client.logoImage ? (
+                    <img
+                      src={client.logoImage}
+                      alt={client.name}
+                      className="w-15 h-15 object-contain"
+                    />
+                  ) :
+                  (
+                    <span className="text-xl font-bold text-primary">{client.logo}</span>
+                  )}
                 </div>
                 <p className="font-medium text-sm">{client.name}</p>
               </CardContent>

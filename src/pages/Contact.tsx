@@ -288,7 +288,7 @@ const Contact = () => {
           <CardContent>
             <div className="aspect-video rounded-lg overflow-hidden bg-muted flex items-center justify-center">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61001.26821214935!2d80.6157209!3d16.2393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f0a2a073d0b5%3A0x69ba0c8b8e3e7e0b!2sTenali%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1647843057826!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d596.2497655786713!2d80.6372315313443!3d16.233992992522932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1758203579519!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
