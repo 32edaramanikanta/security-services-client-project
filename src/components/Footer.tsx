@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
                <img
-  src="/public/logo.png"
+  src="/assets/logo.png"
   alt="Sri Sai Prabhu Logo"
   width={100}
   height={32}

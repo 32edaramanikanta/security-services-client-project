@@ -67,7 +67,7 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Mr. Koteswararao Mandapati is a management postgraduate and social engineer having huge experience in the field of security, safety, social vigilance and experienced Administrator. He is also experienced in co-coordinating and training, he established sai prabu security service agencies.He started with a little security services, now created a squad of expertise security guards that offer the best services to our client according to their requirements.
+              Mr. Koteswararao Mandapati is a management postgraduate and social engineer having huge experience in the field of security, safety, social vigilance and experienced Administrator. He is also experienced in co-coordinating and training, he established sai prabhu security service agencies.He started with a little security services, now created a squad of expertise security guards that offer the best services to our client according to their requirements.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
               Our journey began with a simple mission: to bridge the gap between security needs and reliable 
