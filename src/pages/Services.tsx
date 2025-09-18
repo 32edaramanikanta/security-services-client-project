@@ -31,7 +31,7 @@ type MainService = {
 
 const mainServices: MainService[] = [
   {
-    image: "/assets/guard.jpeg",
+    image: "https://image2url.com/images/1758213391369-81f7519a-8f69-49ea-be3d-a9ad19c518ff.jpeg",
     title: "Security Guards",
     subtitle: "Professional Security Personnel",
     description:
@@ -52,7 +52,7 @@ const mainServices: MainService[] = [
     ],
   },
   {
-    image: "/assets/housekeeper.jpeg",
+    image: "https://image2url.com/images/1758213431559-c217affe-2732-405a-bcc1-740dfe06796a.jpeg",
     title: "Housekeeping Staff",
     subtitle: "Professional Cleaning & Maintenance",
     description:
@@ -74,7 +74,7 @@ const mainServices: MainService[] = [
   },
   {
     // No image, fallback to icon
-    image: "/assets/eventsecurity.jpg",
+    image: "https://image2url.com/images/1758213477929-5d60ebc2-3808-41f1-867f-1c94b2312883.jpg",
     title: "Event Security",
     subtitle: "Specialized Event Protection",
     description:
@@ -91,7 +91,7 @@ const mainServices: MainService[] = [
     icon: Calendar,
   },
   {
-    image: "/assets/industry.jpeg",
+    image: "https://image2url.com/images/1758213500559-c5d9e174-dee6-46a8-abb0-ec7c71c4ec22.jpeg",
     title: "Industrial Security",
     subtitle: "Heavy-Duty Industrial Protection",
     description:
