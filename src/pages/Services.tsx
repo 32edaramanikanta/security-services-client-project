@@ -31,7 +31,7 @@ type MainService = {
 
 const mainServices: MainService[] = [
   {
-    image: "/public/guard.jpeg",
+    image: "/assets/guard.jpeg",
     title: "Security Guards",
     subtitle: "Professional Security Personnel",
     description:
@@ -52,7 +52,7 @@ const mainServices: MainService[] = [
     ],
   },
   {
-    image: "/public/housekeeper.jpeg",
+    image: "/assets/housekeeper.jpeg",
     title: "Housekeeping Staff",
     subtitle: "Professional Cleaning & Maintenance",
     description:
@@ -74,7 +74,7 @@ const mainServices: MainService[] = [
   },
   {
     // No image, fallback to icon
-    image: "/public/eventsecurity.jpg",
+    image: "/assets/eventsecurity.jpg",
     title: "Event Security",
     subtitle: "Specialized Event Protection",
     description:
@@ -91,7 +91,7 @@ const mainServices: MainService[] = [
     icon: Calendar,
   },
   {
-    image: "/public/industry.jpeg",
+    image: "/assets/industry.jpeg",
     title: "Industrial Security",
     subtitle: "Heavy-Duty Industrial Protection",
     description:
