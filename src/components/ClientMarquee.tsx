@@ -3,6 +3,7 @@ import indoRestaurantLogo from "@/assets/logos/indorestaurant.jpg";
 import BarcusRestaurant   from "@/assets/logos/barcus.jpg";
 import HondaLogo from "@/assets/logos/honda.jpeg";
 import VillageLogo from "@/assets/logos/villagekitchen.jpeg";
+import OilLogo from "@/assets/logos/oil.png";
 
 const ClientMarquee = () => {
   const clients = [
@@ -10,6 +11,7 @@ const ClientMarquee = () => {
     { name: "Barcus restaurant", logo: "" , logoImage: BarcusRestaurant },
     { name: "Honda ShowRoom Tenali", logo: "" , logoImage: HondaLogo },
     { name: "Village Kitchen Restaurant", logo: "SSP" ,logoImage: VillageLogo},
+     { name: "IOC-Idian Oil Corporation", logo: "" ,logoImage: OilLogo},
     
   ];
 
