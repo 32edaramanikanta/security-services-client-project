@@ -31,7 +31,7 @@ const Home = () => {
   ];
 
   const whyChooseUs = [
-    "24/7 Response Team Available",
+    "24/7 Operations & Support",
     "Trained & Verified Guards",
     "100% Reliability Guaranteed",
     "Licensed & Insured Services",
@@ -59,7 +59,7 @@ const Home = () => {
       <meta name="keywords" content="security services Tenali, housekeeping manpower, event security Guntur, security guards Andhra Pradesh" />
       
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroImage})` }}
@@ -71,10 +71,10 @@ const Home = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Welcome to Sri Sai Prabhu
             <br />
-            <span className="text-3xl md:text-5xl">Security Services & Man Power Agency</span>
+            <span className="text-3xl md:text-5xl">Security Services & Man Power Agency Tenali</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-95">
-            Reliable Security & Housekeeping Manpower Solutions in Tenali
+            Reliable Security & Housekeeping Manpower Solutions 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild>
@@ -95,7 +95,11 @@ const Home = () => {
               <Badge variant="outline" className="mb-4">About Our Company</Badge>
               <h2 className="text-3xl font-bold mb-6">Your Trusted Security Partner in Tenali</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Mr. Koteswararao Mandapati is a management postgraduate and social engineer having huge experience in the field of security, safety, social vigilance and experienced Administrator. He is also experienced in co-coordinating and training, he established sai prabhu security service agencies.He started with a little security services, now created a squad of expertise security guards that offer the best services to our client according to their requirements.
+                Sri Sai Prabhu Security Services & Man Power Agency is a leading provider of comprehensive security and manpower solutions in Tenali and surrounding areas. With years of experience and a commitment to excellence, we ensure your safety is our priority.
+                
+              </p>
+               <p className="text-lg text-muted-foreground mb-7">
+                 We use the latest security technology to support our guards and boost effectiveness.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
                 Our professional team delivers reliable security and housekeeping services tailored to 

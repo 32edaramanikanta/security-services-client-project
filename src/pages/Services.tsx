@@ -32,10 +32,10 @@ type MainService = {
 const mainServices: MainService[] = [
   {
     image: "https://image2url.com/images/1758213391369-81f7519a-8f69-49ea-be3d-a9ad19c518ff.jpeg",
-    title: "Security Guards",
+    title: "Bilingual Security Guards",
     subtitle: "Professional Security Personnel",
     description:
-      "Highly trained and verified security guards for comprehensive protection of your premises, assets, and personnel.",
+      "We provide highly trained and verified security guards for comprehensive protection of your premises, assets, and personnel.",
     features: [
       "24/7 Security Coverage",
       "Background Verified Guards",
@@ -56,7 +56,7 @@ const mainServices: MainService[] = [
     title: "Housekeeping Staff",
     subtitle: "Professional Cleaning & Maintenance",
     description:
-      "Expert housekeeping and maintenance services to keep your facilities clean, organized, and well-maintained.",
+      "We provide expert housekeeping and maintenance services to keep your facilities clean, organized, and well-maintained.",
     features: [
       "Daily Cleaning Services",
       "Deep Cleaning Solutions",
@@ -78,7 +78,7 @@ const mainServices: MainService[] = [
     title: "Event Security",
     subtitle: "Specialized Event Protection",
     description:
-      "Comprehensive security solutions for events, functions, and special occasions to ensure smooth and safe proceedings.",
+      "We provide comprehensive security solutions for events, functions, and special occasions to ensure smooth and safe proceedings.",
     features: [
       "Crowd Management",
       "VIP Protection",
@@ -95,7 +95,7 @@ const mainServices: MainService[] = [
     title: "Industrial Security",
     subtitle: "Heavy-Duty Industrial Protection",
     description:
-      "Specialized security services for industrial facilities, warehouses, and manufacturing units with unique security needs.",
+      "We provide specialized security services for industrial facilities, warehouses, and manufacturing units with unique security needs.",
     features: [
       "Perimeter Security",
       "Asset Protection",
@@ -167,7 +167,7 @@ const Services = () => {
             Comprehensive Security & Manpower Solutions
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            From security guards to housekeeping staff, we provide trained
+             we provide trained
             professionals and customized solutions to meet all your security
             and manpower requirements.
           </p>
@@ -306,7 +306,7 @@ const Services = () => {
                 <div className="bg-white/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Clock className="h-8 w-8" />
                 </div>
-                <h3 className="font-semibold mb-2">24/7 Support</h3>
+                <h3 className="font-semibold mb-2">24/7 Operations & Support</h3>
                 <p className="text-sm opacity-90">
                   Round-the-clock customer support and emergency response
                   services.

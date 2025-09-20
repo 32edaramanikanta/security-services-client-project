@@ -18,19 +18,18 @@ All colors MUST be HSL.
     --popover-foreground: 210 10% 15%;
 
     /* Deep green primary color for security theme */
-    --primary: 220 60% 40%;
+    --primary:200, 91%, 24%;            
     --primary-foreground: 0 0% 100%;
-    --primary-light: 122 45% 35%;
-    --primary-dark: 122 55% 15%;
-
+    --primary-light: 240 4% 55%;
+    --primary-dark: 200 89% 25%;
     /* Dark blue secondary */
-    --secondary: 210 45% 25%;
+    --secondary: 200 89% 25%; 
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 15% 95%;
     --muted-foreground: 210 10% 45%;
 
-    --accent: 210 45% 25%;
+    --accent: 240 4% 45%;  
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
