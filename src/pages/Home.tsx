@@ -97,8 +97,7 @@ const Home = () => {
               <p className="text-lg text-muted-foreground mb-6">
                 Sri Sai Prabhu Security Services & Man Power Agency is a leading provider of comprehensive security and manpower solutions in Tenali and surrounding areas. With years of experience and a commitment to excellence, we ensure your safety is our priority.
                 
-              </p>
-               <p className="text-lg text-muted-foreground mb-7">
+            
                  We use the latest security technology to support our guards and boost effectiveness.
               </p>
               <p className="text-lg text-muted-foreground mb-8">

@@ -35,7 +35,7 @@ const mainServices: MainService[] = [
     title: "Bilingual Security Guards",
     subtitle: "Professional Security Personnel",
     description:
-      "We provide highly trained and verified security guards for comprehensive protection of your premises, assets, and personnel.",
+      "We can provide you with locally recruited bilingual security guards who can speak to your customers and employees in Telugu/Hindi/English languages.",
     features: [
       "24/7 Security Coverage",
       "Background Verified Guards",
