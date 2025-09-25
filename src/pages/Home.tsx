@@ -182,7 +182,7 @@ const Home = () => {
                   </div>
                   <div className="flex items-center justify-center space-x-2">
                     <Mail className="h-4 w-4" />
-                    <span>sspsecurities23@gmail.com</span>
+                    <span>sspsecurities023@gmail.com</span>
                   </div>
                   <div className="flex items-center justify-center space-x-2">
                     <MapPin className="h-4 w-4" />
