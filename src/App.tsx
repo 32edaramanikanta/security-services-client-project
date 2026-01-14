@@ -11,7 +11,7 @@ import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 import Careers from "./pages/Careers";
 import NotFound from "./pages/NotFound";
-import Vijayawada from "./pages/vijayawada";
+import Vijayawada from "./pages/Vijayawada";
 import Guntur from "./pages/Guntur";
 
 const queryClient = new QueryClient();
