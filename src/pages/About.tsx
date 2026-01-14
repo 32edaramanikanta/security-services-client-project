@@ -13,15 +13,14 @@ const About = () => {
   const values = [
     {
       title: "Reliability",
-      description: "We guarantee 100% reliable services with consistent performance and unwavering commitment to your security needs."
+      description: "As an ISO certified security service provider, we follow standard operating procedures, quality management practices, and strict discipline to ensure safety and reliability. "
     },
     {
       title: "Professional Excellence",
-      description: "Our team of trained professionals maintains the highest standards of service delivery and professional conduct."
-    },
+      description: "Our security personnel are well-trained and experienced in both day and night duties. We provide 8-hour and 12-hour security guard services as per client requirements. "},
     {
       title: "Customer First",
-      description: "Your safety and satisfaction are our top priorities. We customize our services to meet your specific requirements."
+      description: "Customer safety, punctuality, transparency, and quality service are our top priorities. Contact us today for ISO certified professional security guard services in Vijayawada, Guntur, Tenali "
     },
     {
       title: "Integrity",

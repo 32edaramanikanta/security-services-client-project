@@ -11,6 +11,8 @@ import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 import Careers from "./pages/Careers";
 import NotFound from "./pages/NotFound";
+import Vijayawada from "./pages/vijayawada";
+import Guntur from "./pages/Guntur";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +30,8 @@ const App = () => (
             <Route path="/clients" element={<Clients />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/careers" element={<Careers />} />
+            <Route path="/vijayawada" element={<Vijayawada />} />
+            <Route path="/guntur" element={<Guntur />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

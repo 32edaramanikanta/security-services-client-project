@@ -125,7 +125,7 @@ Message: ${formData.message}`;
       />
       <meta name="keywords" content="security jobs Tenali, housekeeping jobs Andhra Pradesh, careers Guntur, security guard jobs" />
 
-      <section className="relative py-20 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-primary to-primary/80 text-primary overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/11 to-primary/5 opacity-30"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <Badge variant="secondary" className="mb-4">Join Our Team</Badge>

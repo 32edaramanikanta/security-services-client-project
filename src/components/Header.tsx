@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Shield } from "lucide-react";
+import logo from "@/assets/logo.jpg"
 
 
 const Header = () => {
@@ -26,7 +27,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-  src="https://image2url.com/images/1758211412516-36356edc-c624-48ac-9301-cf6643c6190c.jpg"
+  src={logo}
   alt="Sri Sai Prabhu Logo"
   width={80}
   height={32}

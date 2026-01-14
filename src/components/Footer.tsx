@@ -1,5 +1,7 @@
 import { Shield, Phone, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import isoCert from "@/assets/iso-logo.png";
+import logo from "@/assets/logo.jpg"
 
 const Footer = () => {
   return (
@@ -9,27 +11,42 @@ const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-               <img
-  src="https://image2url.com/images/1758211412516-36356edc-c624-48ac-9301-cf6643c6190c.jpg"
-  alt="Sri Sai Prabhu Logo"
-  width={100}
-  height={32}
-  className="object-contain"
-/>
+              <img
+                src={logo}
+                alt="Sri Sai Prabhu Security Services Logo"
+                width={100}
+                height={32}
+                className="object-contain"
+              />
               <div>
-                <h3 className="text-xl font-bold">Sri Sai Prabhu Security Services</h3>
+                <h3 className="text-xl font-bold">
+                  Sri Sai Prabhu Security Services
+                </h3>
                 <p className="text-sm opacity-90">& Man Power Agency</p>
               </div>
             </div>
+
             <p className="text-sm opacity-90 mb-4 max-w-md">
-              Your trusted partner for comprehensive security and manpower solutions. 
-              We deliver professional services with 100% reliability and 24/7 support.
+              Your trusted partner for comprehensive security and manpower
+              solutions. We deliver professional services with 24/7 reliability
+              across Vijayawada, Guntur, and Tenali.
+            </p>
+
+            {/* ISO / Trust Signal */}
+            <p className="text-sm opacity-90 flex items-center gap-2">
+              <img
+        src={isoCert}
+        alt="ISO Certified Security Agency"
+        style={{ maxWidth: "100px", marginTop: "10px" }}
+      />
+              ISO Certified Security & Manpower Service Agency
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
+            
             <ul className="space-y-2 text-sm">
               <li><Link to="/" className="opacity-90 hover:opacity-100 transition-opacity">Home</Link></li>
               <li><Link to="/about" className="opacity-90 hover:opacity-100 transition-opacity">About Us</Link></li>
@@ -39,14 +56,36 @@ const Footer = () => {
               <li><Link to="/careers" className="opacity-90 hover:opacity-100 transition-opacity">Careers</Link></li>
             </ul>
           </div>
+
+          {/* Service Areas (SEO Optimized) */}
           <div>
             <h4 className="font-semibold mb-4">Our Service Areas</h4>
             <ul className="space-y-2 text-sm">
-              <li className="opacity-90 hover:opacity-100 transition-opacity">Tenali , Repalle , Ponnur, Guntur , Mangalagiri</li>
-              <li className="opacity-90 hover:opacity-100 transition-opacity">Vijayawada , Amaravati , Chilakaluripet , Narasaraopet , Bapatla</li>
-         
-              
-              
+              <li>
+                <Link
+                  to="/vijayawada"
+                  className="opacity-90 hover:opacity-100 transition-opacity"
+                >
+                  Vijayawada
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/guntur"
+                  className="opacity-90 hover:opacity-100 transition-opacity"
+                >
+                  Guntur
+                </Link>
+              </li>
+              <li>
+                
+                  Tenali
+               
+              </li>
+              <li className="opacity-90">
+                Repalle, Ponnur, Mangalagiri, Amaravati, Chilakaluripet,
+                Narasaraopet, Bapatla
+              </li>
             </ul>
           </div>
 
@@ -56,8 +95,11 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span className="opacity-90">Tenali, Andhra Pradesh, India</span>
+                <span className="opacity-90">
+                  Tenali, Andhra Pradesh, India
+                </span>
               </div>
+
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 <div className="opacity-90">
@@ -65,14 +107,14 @@ const Footer = () => {
                   <div>9912341209</div>
                 </div>
               </div>
+
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
                 <span className="opacity-90">sspsecurities23@gmail.com</span>
-                
               </div>
+
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                
                 <span className="opacity-90">sspsecurities023@gmail.com</span>
               </div>
             </div>
@@ -80,7 +122,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-light mt-8 pt-8 text-center text-sm opacity-90">
-          <p>&copy; 2025 Sri Sai Prabhu Security Services & Man Power Agency. All rights reserved.</p>
+          <p>
+            &copy; 2026 Sri Sai Prabhu Security Services & Man Power Agency. All
+            rights reserved.
+          </p>
         </div>
       </div>
     </footer>

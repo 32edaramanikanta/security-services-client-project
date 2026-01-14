@@ -6,6 +6,10 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import guard from "@/assets/guard.jpeg"
+import housekeeper from "@/assets/housekeeper.jpeg"
+import eventsecurity from "@/assets/eventsecurity.jpg"
+import industry from "@/assets/industry.jpeg"
 import {
   Shield,
   Users,
@@ -31,7 +35,7 @@ type MainService = {
 
 const mainServices: MainService[] = [
   {
-    image: "https://image2url.com/images/1758213391369-81f7519a-8f69-49ea-be3d-a9ad19c518ff.jpeg",
+    image: guard,
     title: "Bilingual Security Guards",
     subtitle: "Professional Security Personnel",
     description:
@@ -52,7 +56,7 @@ const mainServices: MainService[] = [
     ],
   },
   {
-    image: "https://image2url.com/images/1758213431559-c217affe-2732-405a-bcc1-740dfe06796a.jpeg",
+    image: housekeeper,
     title: "Housekeeping Staff",
     subtitle: "Professional Cleaning & Maintenance",
     description:
@@ -73,8 +77,8 @@ const mainServices: MainService[] = [
     ],
   },
   {
-    // No image, fallback to icon
-    image: "https://image2url.com/images/1758213477929-5d60ebc2-3808-41f1-867f-1c94b2312883.jpg",
+    
+    image: eventsecurity,
     title: "Event Security",
     subtitle: "Specialized Event Protection",
     description:
@@ -91,7 +95,7 @@ const mainServices: MainService[] = [
     icon: Calendar,
   },
   {
-    image: "https://image2url.com/images/1758213500559-c5d9e174-dee6-46a8-abb0-ec7c71c4ec22.jpeg",
+    image: industry,
     title: "Industrial Security",
     subtitle: "Heavy-Duty Industrial Protection",
     description:
@@ -288,8 +292,7 @@ const Services = () => {
                 </div>
                 <h3 className="font-semibold mb-2">Licensed & Insured</h3>
                 <p className="text-sm opacity-90">
-                  Fully licensed security services with comprehensive insurance
-                  coverage.
+                  Sri Sai Prabhu Security Services is an ISO certified and trusted security agency providing trained and reliable security guards in Guntur and surrounding areas. We offer professional security services for apartments, residential buildings, schools, colleges, hospitals, shopping complexes, offices, industries, warehouses, and events.
                 </p>
               </div>
               <div className="text-center">
@@ -298,8 +301,7 @@ const Services = () => {
                 </div>
                 <h3 className="font-semibold mb-2">Trained Professionals</h3>
                 <p className="text-sm opacity-90">
-                  All personnel undergo rigorous training and background
-                  verification.
+                 As an ISO certified security service provider, we follow standard operating procedures, quality management practices, and strict discipline to ensure safety and reliability. Our security personnel are well-trained and experienced in both day and night duties. We provide 8-hour and 12-hour security guard services as per client requirements.
                 </p>
               </div>
               <div className="text-center">
@@ -308,8 +310,7 @@ const Services = () => {
                 </div>
                 <h3 className="font-semibold mb-2">24/7 Operations & Support</h3>
                 <p className="text-sm opacity-90">
-                  Round-the-clock customer support and emergency response
-                  services.
+                  Round-the-clock customer support and emergency response services. Customer safety, punctuality, transparency, and quality service are our top priorities. Contact us today for ISO certified professional security guard services in Guntur
                 </p>
               </div>
             </div>

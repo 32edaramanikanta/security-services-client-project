@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-security.jpg";
 import ClientMarquee from "@/components/ClientMarquee";
 
+import isoCert from "@/assets/iso-certificate.png";
+
 const Home = () => {
   const services = [
     {
@@ -36,7 +38,7 @@ const Home = () => {
     "100% Reliability Guaranteed",
     "Licensed & Insured Services",
     "Customized Security Solutions",
-    "Professional Management"
+    "ISO certified professional security"
   ];
 
   const clients = [
@@ -95,14 +97,16 @@ const Home = () => {
               <Badge variant="outline" className="mb-4">About Our Company</Badge>
               <h2 className="text-3xl font-bold mb-6">Your Trusted Security Partner in Tenali</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Sri Sai Prabhu Security Services & Man Power Agency is a leading provider of comprehensive security and manpower solutions in Tenali and surrounding areas. With years of experience and a commitment to excellence, we ensure your safety is our priority.
-                
-            
-                 We use the latest security technology to support our guards and boost effectiveness.
+                Sri Sai Prabhu Security Services is an ISO certified and trusted security agency providing trained and reliable security guards in Vijayawada, Guntur, Tenali and surrounding areas. 
+                We offer professional security services for apartments, residential buildings, schools, colleges, hospitals, shopping complexes, offices, industries, warehouses, and events.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Our professional team delivers reliable security and housekeeping services tailored to 
-                your specific needs, backed by 24/7 support and 100% reliability guarantee.
+                As an ISO certified security service provider, we follow standard operating procedures, quality management practices, and strict discipline to ensure safety and reliability. Our security personnel are well-trained and experienced in both day and night duties. 
+                We provide 8-hour and 12-hour security guard services as per client requirements.
+              </p>
+              <p className="text-lg text-muted-foreground mb-8">
+                Customer safety, punctuality, transparency, and quality service are our top priorities. 
+                Contact us today for ISO certified professional security guard services in Guntur
               </p>
               <Button asChild>
                 <Link to="/about">Learn More About Us</Link>
@@ -110,13 +114,15 @@ const Home = () => {
             </div>
             <div className="relative">
               <div className="bg-primary/10 p-8 rounded-lg">
-                <Shield className="h-16 w-16 text-primary mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Professional Excellence</h3>
-                <p className="text-muted-foreground">
-                  Delivering world-class security and manpower services with unwavering commitment to quality and reliability.
-                </p>
+                <img
+        src={isoCert}
+        alt="ISO Certified Security Agency"
+        style={{ maxWidth: "300px", marginTop: "15px" }}
+      />
+   
               </div>
             </div>
+            
           </div>
         </div>
       </section>
@@ -226,6 +232,7 @@ const Home = () => {
 
       {/* Client Marquee */}
       <ClientMarquee />
+      
     </>
   );
 };
