@@ -150,15 +150,15 @@ const Services = () => {
       {/* SEO Meta Tags */}
       <title>
         Security Services - Sri Sai Prabhu | Security Guards, Housekeeping &
-        Event Security Tenali
+        Event Security Vijayawada
       </title>
       <meta
         name="description"
-        content="Professional security services in Tenali - Security Guards, Housekeeping Staff, Event Security, Industrial Security. Licensed & trained personnel. Call 7337420359"
+        content="Professional security services in Vijayawada - Security Guards, Housekeeping Staff, Event Security, Industrial Security. Licensed & trained personnel. Call 7337420359"
       />
       <meta
         name="keywords"
-        content="security guards Tenali, housekeeping services, event security Guntur, industrial security Andhra Pradesh"
+        content="security guards Vijayawada, housekeeping services, event security Vijayawada, industrial security Andhra Pradesh"
       />
 
       <div className="container mx-auto px-4">
